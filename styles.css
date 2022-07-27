@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.canvas-container {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+.canvas {
+    /* border: 1px solid black; */
+    background-color: rgb(240, 240, 240);
+    height: 550px;
+    width: 1200px;
+}
+
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-upload .file-upload-select {
+	display: block;
+	color: #dbdbdb;
+	cursor: pointer;
+	text-align: left;
+	background: #1a242f;
+	overflow: hidden;
+	position: relative;
+	border-radius: 6px;
+}
+.file-upload .file-upload-select .file-select-button {
+	background: #161f27;
+	padding: 10px;
+	display: inline-block;
+}
+.file-upload .file-upload-select .file-select-name {
+	display: inline-block;
+	padding: 10px;
+    min-width: 200px;
+    max-width: 400px;
+    background: #163b62;
+}
+.file-upload .file-upload-select:hover .file-select-button {
+	background: #324759;
+	color: #ffffff;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+.file-upload .file-upload-select input[type="file"] {
+	display: none;
+}
